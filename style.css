@@ -2,11 +2,6 @@
     font-family: Georgia, serif;
 }
 
-.title {
-    max-width: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 100vh;
+body {
+    margin: 10px 5px 15px 20px;
 }
