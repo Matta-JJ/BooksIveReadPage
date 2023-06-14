@@ -47,6 +47,19 @@ body {
     }
 }
 
+.container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.container-fluid::after {
+    content: "";
+    display: table;
+    clear: both
+}
+
 .row {
     margin-right: -15px;
     margin-left: -15px
